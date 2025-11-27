@@ -1,0 +1,32 @@
+wiring
+
+DHT11 (Suhu & Kelembapan)
+Digital 1-Wire
+GPIO 15
+TTL 3.3V
+
+PM810 → MAX485 → ESP32
+RS-485 (Modbus RTU)
+TXD2 = 17, RXD2 = 16, DE/RE = 4
+TTL 3.3V (MCU), RS-485 Diferensial (A/B)
+
+IR Sensor 1
+Analog/Digital
+GPIO 32
+0–3.3V
+
+IR Sensor 2
+Analog/Digital
+GPIO 33
+0–3.3V
+
+IR Sensor 3
+Analog/Digital
+GPIO 25
+0–3.3V
+
+IR Sensor 4
+Analog/Digital
+GPIO 26
+0–3.3V
+
